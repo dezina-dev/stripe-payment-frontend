@@ -23,7 +23,7 @@ function StripeCheckoutComponent() {
         useEffect(() => {
             setPaydetails({
             product_name: "ponds cream",
-            price: 100,  // have to multiply with 100 as it considers last 2 digits as paise
+            price: 500*100,  // have to multiply with 100 as it considers last 2 digits as paise
             quantity: 1
           });
         }, []);
